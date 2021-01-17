@@ -24,7 +24,7 @@ def pixels_to_ascii(image):
 
 def main(new_width=100):
     # attempt to open image from user-input
-    path = "save_blahaj.png"
+    path = "save_blahaj.jpg"
     try:
         image = PIL.Image.open(path)
     except:
